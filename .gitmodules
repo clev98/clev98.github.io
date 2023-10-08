@@ -1,0 +1,3 @@
+[submodule "themes/ficurina"]
+	path = themes/ficurina
+	url = https://gitlab.com/gabmus/hugo-ficurinia.git
