@@ -15,7 +15,7 @@ This webpage serves as a more organized view of what I have worked on and will v
 - Cybersecurity: Reverse engineering, vulnerability research, red teaming
 - Computer Science: RF, embedded firmware, assembly, Windows kernel, infrastructure as code
 - Music: Piano, Accordion
-- Other: Dystopian & psychological fiction, geopolitics, environmental volunteering
+- Other: Biking, trains, dystopian & psychological fiction, geopolitics, environmental volunteering
 
 # Contact
 - E-Mail: `clev at clev dot news`
