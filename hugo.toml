@@ -1,0 +1,43 @@
+baseURL = 'https://clev.news/'
+languageCode = 'en-us'
+title = 'Connor Leavesley'
+theme = 'ficurina'
+copyright = "Connor Leavesley - [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)."
+
+paginate = 10
+summaryLength = 70
+
+[params]
+    author = "Connor Leavesley"
+    description = "Connor Leavesley's Blog"
+    
+    logo = "/logo.svg"
+    favicon = "/favicon.png"
+    faviconIco = "/favicon.ico"
+    appletouch = "/apple-touch-icon.png"
+    svgicon = "/logo.svg"
+    icon512 = "/android-chrome-512x512.png"
+    icon192 = "/android-chrome-192x192.png"
+
+    posts = "posts"
+    showPostsLink = true
+
+    showSinglePageAsHome = false
+    homeSinglePage = "/home"
+
+    showTags = false
+    showRss = false
+    articleSummary = true
+    enableSearch = false 
+
+[menu]
+    [[menu.icons]]
+        identifier = "github"
+        name = "GitHub"
+        url = "https://github.com/clev98"
+        weight = 10
+    [[menu.icons]]
+        identifier = "linkedin"
+        name = "LinkedIn"
+        url = "https://www.linkedin.com/in/connorleavesley/"
+        weight = 20
