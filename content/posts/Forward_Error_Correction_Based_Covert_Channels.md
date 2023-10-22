@@ -9,7 +9,6 @@ tags:
   - Covert Channels
 ---
 
-## Introduction
 Forward Error Correction (FEC) is a widely used method to limit the amount of data retransmissions in noisy communication channels. To avoid resending data, the receiver of that data will attempt to correct bit errors that have occurred through the use of redundant data bits. If the errors can be corrected, then no retransmission is required, greatly reducing send time. FECs provide an interesting angle of covert transmission that, to my best knowledge, has not been explored by the academic community. As bits are corrected by the receiver, it is theoretically possible to inject a covert message into the encoded data prior to transmission, to be intercepted by a third party during travel. The covert message could then be extracted by the third party with little difficulty. The covert message, when received by the intended receiver, would be treated as bit errors and corrected, allowing for uncorrupted overt data. 
 
 The LTE standard has shown itself to be an ideal platform for a proof of concept. LTE uses turbo coding as its FEC method of choice, with well defined blocks of how data is manipulated, sent, received, and decoded. Additionally, much of the work on LTE covert channels has been done in the packet layers, with very little attention being paid to the physical layer of the system. 
@@ -56,19 +55,19 @@ The easiest and most practical solution was to go with the second location, embe
 
 In this method, every Nth bit is replaced with a covert data bit. Systematic bits and RSC bits can and will be overwritten. Small values of N are more similar to burst errors, and large values of N reflect a noisy channel. 
 
-![N-Bit Skip Embedding](/images/post_pics/nbitskip.png)
+![N-Bit Skip Embedding](/images/post_pics/Forward_Error_Correction_Based_Covert_Channels/nbitskip.png)
 
 ### Chunk Skipping
 
 This technique seeks to avoid overwriting specific types of bits, with the rest of the bits being embedded utilizing N-bit skipping. Leaving one type of bit intact could potentially have a positive benefit on how long the covert message could be before uncorrectable bit errors are introduced. 
 
-![Chunk Skipping](/images/post_pics/chunkskip.png)
+![Chunk Skipping](/images/post_pics/Forward_Error_Correction_Based_Covert_Channels/chunkskip.png)
 
 ### LFSR Pseudo Random Embedding
 
 This final method used a linear shift feedback register to embed into the sequence pseudo randomly. This is to simulate random noise in a channel. 
 
-![LFSR Pseudo Random Embedding](/images/post_pics/lfsrembedding.png)
+![LFSR Pseudo Random Embedding](/images/post_pics/Forward_Error_Correction_Based_Covert_Channels/lfsrembedding.png)
 
 ## Scrambling and Descrambling
 
@@ -88,31 +87,31 @@ Using MATLAB, a number of possible scenarios were tested, systematically modifyi
 
 This test used possible skip values of one through eight, with a maximum potential message length of 2000 bits, and the message length being increased by 50 bits for each test. The largest covert message before decoding errors occurred on the uninformed receiver was 1500 bits with a skip value of three. Noticeably, increasing the number of skipped values did not result in an increase in covert message length. 
 
-![Max Covert Message Length vs Skip Value](/images/post_pics/nbitskipresults1.png)
+![Max Covert Message Length vs Skip Value](/images/post_pics/Forward_Error_Correction_Based_Covert_Channels/nbitskipresults1.png)
 
 Looking at the skip value, message length, and overt errors all together, it can be seen once errors started occurring, they increased rapidly. 
 
-![Skip Value vs Message Length vs Overt Errors](/images/post_pics/nbitskipresults2.png)
+![Skip Value vs Message Length vs Overt Errors](/images/post_pics/Forward_Error_Correction_Based_Covert_Channels/nbitskipresults2.png)
 
 ### Chunk Skipping
 
 For chunk skipping, a maximum potential message length of 3500 bits was used, incremented by 50 bits each round. A value of 1 to 8 was used for the skipping. Regardless of whether the systematic bits or either of the RSC chunks were skipped, the results were roughly the name. The following graphs detail the first RSC bit chunks being skipped. With a N-bit skipping value of 6, the maximum covert message length was around 2600 bits. 
 
-![Max Covert Message Length vs Skip Value](/images/post_pics/chunkskipresults1.png)
+![Max Covert Message Length vs Skip Value](/images/post_pics/Forward_Error_Correction_Based_Covert_Channels/chunkskipresults1.png)
 
 One thing of note is once overt errors started occurring, they either quickly leveled out or followed a logarithmic curve as message length increased in most cases.
 
-![Skip Value vs Message Length vs Overt Errors](/images/post_pics/chunkskipresults2.png)
+![Skip Value vs Message Length vs Overt Errors](/images/post_pics/Forward_Error_Correction_Based_Covert_Channels/chunkskipresults2.png)
 
 A variation of this method resulted in the best case observed out of all the tested methods. In this case, only the first chunk of systematic bits were skipped, with the rest of the data being embedded using N-bit skipping. This resulted in a maximum covert message length of 4000 bits with a skip value of four.
 
-![Skip Value vs Message Length vs Overt Errors](/images/post_pics/chunkskipvariationresults.png)
+![Skip Value vs Message Length vs Overt Errors](/images/post_pics/Forward_Error_Correction_Based_Covert_Channels/chunkskipvariationresults.png)
 
 ### LFSR Pseudo Random Embedding
 
 For LFSR pseudo random embedding, three different sequences were tried with period lengths of 8191, 4095, and 511. A maximum potential length of 2000 bits was used, with each test incrementing the length by 50 bits. All three LFSR schemes maxed out around 1400 bits before overt errors were introduced. 
 
-![Covert Message Length vs Overt Error](/images/post_pics/lfsrresults1.png)
+![Covert Message Length vs Overt Error](/images/post_pics/Forward_Error_Correction_Based_Covert_Channels/lfsrresults1.png)
 
 ### Bit Error Rate
 
@@ -131,3 +130,5 @@ This research concluded with the successful covert transmission of a maximum of 
 ## Future Work
 
 Future research seeks to conduct the covert channel in a more realistic environment utilizing srsRAN or another LTE simulator. Additional research into other platforms utilizing forward error correcting codes is desired as well. 
+
+All code for this post can be found [here](https://github.com/clev98/Turbo-Code-Covert-Channel).
