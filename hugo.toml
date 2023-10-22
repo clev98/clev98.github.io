@@ -21,7 +21,6 @@ summaryLength = 70
 
     posts = "posts"
     showPostsLink = true
-    unsafe =  true
 
     showSinglePageAsHome = false
     homeSinglePage = "/home"
@@ -42,3 +41,8 @@ summaryLength = 70
         name = "LinkedIn"
         url = "https://www.linkedin.com/in/connorleavesley/"
         weight = 20
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
