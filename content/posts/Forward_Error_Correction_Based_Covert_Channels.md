@@ -1,6 +1,6 @@
 ---
 title: "Utilizing the LTE Turbo Encoder to Transmit Covert Data"
-date: 2023-10-08
+date: 2023-10-22
 tags:
   - 4G
   - LTE
