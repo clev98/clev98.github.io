@@ -21,6 +21,7 @@ summaryLength = 70
 
     posts = "posts"
     showPostsLink = true
+    unsafe =  true
 
     showSinglePageAsHome = false
     homeSinglePage = "/home"
