@@ -30,7 +30,7 @@ Coded blocks are then passed to the PDSCH, which modulates and transmits the dat
 
 ![MATLAB DL-SCH Process](/images/post_pics/Forward_Error_Correction_Based_Covert_Channels/PDSCH.png)
 
-Coded data is first scrambled through a scrambler. Scrambling has several functions: makes data harder to read by unintended recipients, gives data a unique signature to aid in identifying the sender, and can be used as analog encryption. Scrambling XORs data with a pseudo random sequence. Further information on the scrambler will be covered later. At this point data is modulated, most likely with some variation of QAM, mapped to specific RX antennas (layer mapping & precoding), and is transmitted. 
+Coded data is first scrambled through a scrambler. Scrambling has several functions: makes data harder to read by unintended recipients, gives data a unique signature to aid in identifying the sender, can be used as analog encryption, and removes long runs of zeros in the signal. Scrambling XORs data with a pseudo random sequence. Further information on the scrambler will be covered later. At this point data is modulated, most likely with some variation of QAM, mapped to specific RX antennas (layer mapping & precoding), and is transmitted. 
 
 ## Turbo Coding Basics
 A Turbo Code is a forward error correcting code. The sender will encode the data, and the receiver is able to use this encoded information to discover and correct bit errors that occurred in transmission. The LTE Turbo Encoder takes one bit in and outputs three bits. The first bit is the systematic bit, this is the original data bit. The second bit is from a recursive systematic convolutional (RSC) code, calculated on the original order of the transmitted data. The third bit is also from a RSC, but this time it has been calculated from some permutation of the original data. After encoding, the bits will be organized in a concatenated block form, [X<sub>k</sub>, Z<sub>k</sub>, Z'<sub>k</sub>], where X<sub>k</sub> is all of the systematic bits, Z<sub>k</sub> is all of the first RSC bits, and Z'<sub>k</sub> is all of the second RSC bits. All three blocks are naturally of equal length. These bits are then processed, scrambled, modulated, and transmitted.
@@ -71,7 +71,7 @@ This final method used a linear shift feedback register to embed into the sequen
 
 ## Scrambling and Descrambling
 
-As stated earlier, the scrambler creates a pseudo random sequence to XOR with the outgoing data transmission. The algorithm that creates this sequence uses the Radio Network Temporary Identifier (RNTI) as a seed. The RNTI is a well defined 32-bit value used to uniquely identify handsets to the receiving downlink and is exchanged during the LTE random access handshake. It is important to note that the scrambling sequence is not cryptographically secure. If an attacker intercepts the RNTI, the same scrambling sequence can be generated. 
+As stated earlier, the scrambler creates a pseudo random sequence to XOR with the outgoing data transmission. The algorithm that creates this sequence uses the Radio Network Temporary Identifier (RNTI) as a seed. The RNTI is a well defined 16-bit value used to uniquely identify handsets to the receiving downlink and is exchanged during a LTE handshake. It is important to note that the scrambling sequence is not cryptographically secure. If an attacker intercepts the RNTI, the same scrambling sequence can be generated. 
 
 ## Testing Methodology
 
@@ -132,3 +132,7 @@ This research concluded with the successful covert transmission of a maximum of 
 Future research seeks to conduct the covert channel in a more realistic environment utilizing srsRAN or another LTE simulator. Additional research into other platforms utilizing forward error correcting codes is desired as well. 
 
 All code for this post can be found [here](https://github.com/clev98/Turbo-Code-Covert-Channel).
+
+## References
+[1]DL-SCH Processing Chain. MathWorks.
+[2]PDSCH Processing Chain. MathWorks.

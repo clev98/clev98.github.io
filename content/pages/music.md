@@ -7,20 +7,11 @@ norss: true
 
 Classical pieces I have heard in person, as well as some of my favorite pieces and songs.
 
-## In-Person Classical Performances
-- Farrenc: Symphony No. 3
-- Kilar: Krzesany
-- Prokofiev: Violin Concerto No. 2
-- Rachmaninoff: The Rock
-- Rachmaninoff: Piano Concerto No. 4
-- Rachmaninoff: The Bells
-- Saint-Georges: Symphony No. 1 in G Major
-- Stravinsky: The Rite of Spring
-
 ## Classical
+- [Farrenc: Mélodie in Ab Major](https://www.youtube.com/watch?v=W0nxyjt8aUk)
 - [Farrenc: Symphony No. 1](https://www.youtube.com/watch?v=R2s83X20MIs)
 - [Farrenc: Symphony No. 3](https://www.youtube.com/watch?v=yv3LXXlmwNs)
-- [Rachmaninov: Piano Concerto No. 2](https://www.youtube.com/watch?v=l4zkc7KEvYM)
+- [Rachmaninoff: Piano Concerto No. 2](https://www.youtube.com/watch?v=l4zkc7KEvYM)
 - [Ravel: Piano Trio in A Minor](https://www.youtube.com/watch?v=Qy3uYBH5UaU)
 - [Weber: Clarinet Quintet in B-flat Major](https://www.youtube.com/watch?v=IJtypOgWsZk)
 
@@ -33,6 +24,21 @@ Classical pieces I have heard in person, as well as some of my favorite pieces a
 
 ## Rap
 - [Mos Def: Auditorium](https://www.youtube.com/watch?v=kSQEGE8gKj4)
+- [Mos Def: Priority](https://www.youtube.com/watch?v=0BuMMFOhyQ8)
+- [Mars Ill: Mona Lisa](https://www.youtube.com/watch?v=LQZQsfycBj8)
 - [Mars Ill: Tales From Cloud 7](https://www.youtube.com/watch?v=71x7Dn0uHOg)
 - [Mars Ill: Sunstep](https://www.youtube.com/watch?v=vYvjL7xLgag)
 - [Lupe Fiasco: Mural](https://www.youtube.com/watch?v=vkHrPyoEtSI)
+
+## Heard In Person
+- Farrenc: Symphony No. 3
+- Kilar: Krzesany
+- Leshnoff: Symphony for Winds
+- Mozart: Sonata in A Minor, K.310
+- R. Schumann: Fantasie in C, Op. 17
+- Prokofiev: Violin Concerto No. 2
+- Rachmaninoff: The Rock
+- Rachmaninoff: Piano Concerto No. 4
+- Rachmaninoff: The Bells
+- Saint-Georges: Symphony No. 1 in G Major
+- Stravinsky: The Rite of Spring
