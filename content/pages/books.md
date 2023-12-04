@@ -9,6 +9,7 @@ A list of my favorite books, split up by genre.
 
 ## Computer Science
 - Dick, Hull, Jackson: Requirements Engineering
+- Martignetti: What Makes It Page?
 - Yosifovich, Ionescu, Russinovich, Solomon: Windows Internals Part 1
 
 ## Fiction
@@ -16,5 +17,5 @@ A list of my favorite books, split up by genre.
 - Dostoevsky: The Idiot
 - Vonnegut: Player Piano
 
-## Work History & Geopolitics
+## History & Geopolitics
 - Immerwahr: How to Hide an Empire

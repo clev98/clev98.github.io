@@ -42,3 +42,6 @@ Classical pieces I have heard in person, as well as some of my favorite pieces a
 - Rachmaninoff: The Bells
 - Saint-Georges: Symphony No. 1 in G Major
 - Stravinsky: The Rite of Spring
+- Stravinsky: The Firebird
+- Tchaikovsky: Symphony No. 4
+- Tchaikovsky: Violin Concerto in D major
