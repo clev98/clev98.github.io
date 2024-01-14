@@ -19,3 +19,4 @@ A list of my favorite books, split up by genre.
 
 ## History & Geopolitics
 - Immerwahr: How to Hide an Empire
+- Parenti: Blackshirts & Reds

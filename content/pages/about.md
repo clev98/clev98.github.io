@@ -9,7 +9,7 @@ Hello, I'm Connor!
 
 I'm a graduate of the Rochester Institute of Technology with a Master's and Bachelor's in Computing Security with a minor in Mathematics.
 
-This webpage serves as a more organized view of what I have worked on and will vary between programming, research, and non-technical interests. 
+This webpage serves as an organized view of what I have worked on and will vary between programming, research, and non-technical interests. 
 
 ## Interests:
 - Cybersecurity: Reverse engineering, vulnerability research, red teaming

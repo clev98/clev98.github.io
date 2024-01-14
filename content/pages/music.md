@@ -25,7 +25,6 @@ Classical pieces I have heard in person, as well as some of my favorite pieces a
 ## Rap
 - [Mos Def: Auditorium](https://www.youtube.com/watch?v=kSQEGE8gKj4)
 - [Mos Def: Priority](https://www.youtube.com/watch?v=0BuMMFOhyQ8)
-- [Mars Ill: Mona Lisa](https://www.youtube.com/watch?v=LQZQsfycBj8)
 - [Mars Ill: Tales From Cloud 7](https://www.youtube.com/watch?v=71x7Dn0uHOg)
 - [Mars Ill: Sunstep](https://www.youtube.com/watch?v=vYvjL7xLgag)
 - [Lupe Fiasco: Mural](https://www.youtube.com/watch?v=vkHrPyoEtSI)
@@ -45,3 +44,4 @@ Classical pieces I have heard in person, as well as some of my favorite pieces a
 - Stravinsky: The Firebird
 - Tchaikovsky: Symphony No. 4
 - Tchaikovsky: Violin Concerto in D major
+- Wagner: The Ring (Without Words, 1987 Composition)
