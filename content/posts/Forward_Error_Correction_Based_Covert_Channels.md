@@ -134,5 +134,5 @@ Future research seeks to conduct the covert channel in a more realistic environm
 All code for this post can be found [here](https://github.com/clev98/Turbo-Code-Covert-Channel).
 
 ## References
-[1]DL-SCH Processing Chain. MathWorks.
-[2]PDSCH Processing Chain. MathWorks.
+- [1]DL-SCH Processing Chain. MathWorks.
+- [2]PDSCH Processing Chain. MathWorks.
