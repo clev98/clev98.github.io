@@ -34,12 +34,14 @@ Classical pieces I have heard in person, as well as some of my favorite pieces a
 - Kilar: Krzesany
 - Leshnoff: Symphony for Winds
 - Mozart: Sonata in A Minor, K.310
-- R. Schumann: Fantasie in C, Op. 17
+- Dvořák: Violin Concerto
 - Prokofiev: Violin Concerto No. 2
 - Rachmaninoff: The Rock
 - Rachmaninoff: Piano Concerto No. 4
 - Rachmaninoff: The Bells
 - Saint-Georges: Symphony No. 1 in G Major
+- Schubert: Symphony No. 9 in C Major
+- R. Schumann: Fantasie in C, Op. 17
 - Stravinsky: The Rite of Spring
 - Stravinsky: The Firebird
 - Tchaikovsky: Symphony No. 4
