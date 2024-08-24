@@ -1,11 +1,11 @@
 ---
 title: "Carving of Fragmented DOCX Files"
-date: 2024-8-24
+date: 2024-08-24
 tags:
   - File Carving
 ---
 
-In lieu of scheduled programming, the next few posts will various old college research papers of interest. 
+In lieu of scheduled programming, the next few posts will various old college research papers of interest. The following paper conducted research into carving fragmented DOCX files from forensic images. 
 
 <object data="https://www.clev.news/images/pdfs/carving_docx.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="https://www.clev.news/images/pdfs/carving_docx.pdf">
