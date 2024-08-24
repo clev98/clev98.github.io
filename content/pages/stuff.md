@@ -12,6 +12,7 @@ Aerospace:
 
 Computer Science:
 - [Compiler Explorer](https://godbolt.org/)
+- [Active Directory Pentesting Paths](https://mayfly277.github.io/assets/blog/pentest_ad_dark.svg)
 
 Other:
 - [Postal Experiments](https://improbable.com/airchives/paperair/volume6/v6i4/TMP-1110023375.htm)

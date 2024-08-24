@@ -8,6 +8,7 @@ norss: true
 Classical pieces I have heard in person, as well as some of my favorite pieces and songs.
 
 ## Classical
+- [Mahler: Symphony No. 2 The Resurrection](https://www.youtube.com/watch?v=2D9DfuF-Hf4)
 - [Farrenc: Mélodie in Ab Major](https://www.youtube.com/watch?v=W0nxyjt8aUk)
 - [Farrenc: Symphony No. 1](https://www.youtube.com/watch?v=R2s83X20MIs)
 - [Farrenc: Symphony No. 3](https://www.youtube.com/watch?v=yv3LXXlmwNs)

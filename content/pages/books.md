@@ -13,9 +13,11 @@ A list of my favorite books, split up by genre.
 - Yosifovich, Ionescu, Russinovich, Solomon: Windows Internals Part 1
 
 ## Fiction
+- Dostoevsky: Demons
 - Dostoevsky: The Brothers Karamazov
 - Dostoevsky: The Idiot
 - Vonnegut: Player Piano
 
 ## History & Geopolitics
 - Immerwahr: How to Hide an Empire
+- Turchin: Ages of Discord
